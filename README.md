@@ -126,3 +126,10 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * Hat tip to the folks in the MusicKit Lab at WWDC17
 
+## 使い方
+
+```
+$ pip3 install pyjwt
+$ pip3 install cryptography
+$ python3 music_token.py
+```

@@ -7,14 +7,14 @@ import jwt
 
 
 secret = """-----BEGIN PRIVATE KEY-----
-ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ0123
+xxxxxxxx
 -----END PRIVATE KEY-----"""
-keyId = "0123456789"
-teamId = "9876543210"
+keyId = "xxxxx"
+teamId = "xxxxxx"
 alg = 'ES256'
 
 time_now = datetime.datetime.now()
-time_expired = datetime.datetime.now() + datetime.timedelta(hours=12)
+time_expired = datetime.datetime.now() + datetime.timedelta(days=180)
 
 headers = {
 	"alg": alg,
